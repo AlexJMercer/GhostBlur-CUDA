@@ -1,0 +1,7 @@
+{
+    "makefile.configureOnOpen": true,
+    "files.associations": {
+        "*.embeddedhtml": "html",
+        "string": "cpp"
+    }
+}
