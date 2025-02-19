@@ -1,8 +1,8 @@
-# Clean and build the project
+#!/bin/bash
 
+# Clean and build the project
 make clean all
 
-# Run the executable with optional arguments
-# cd bin
-# ./main "$1" "$2"
-# cd ..
+# Run the project with the given arguments
+# Arguments: $1 - input file, $2 - output file
+./bin/main "$1" "$2"
